@@ -116,7 +116,14 @@
 
 	img.scale-with-grid {
 		max-width: 100%;
-		height: auto; }
+        height: auto; }
+        
+    div.bg-icon {
+        background-image: url(/img/icon.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
 
 
 /* #Buttons
