@@ -19,6 +19,10 @@
 .container .big.column   { width: 620px; }
 .container .full.column  { width: 940px; }
 
+.one-third.column               { width: 30.6666666667%; }
+.two-thirds.column              { width: 65.3333333333%; }
+.one-half.column                { width: 48%; }
+
 
 /* ----- Tablet (Portrait) -- 768px ----- */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -88,4 +92,9 @@
     visibility: hidden;
     width: 0;
     height: 0;
+  }
+
+  .contact-format {
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
