@@ -14,10 +14,27 @@
 .container .column       { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .row                     { margin-bottom: 20px; }
 
+.container .small-1.column { width: 150px; }
+.container .small-2.column { width: 335px; }
 .container .small.column { width: 300px; }
+.container .smaller.column { width: 150px; }
 .container .half.column  { width: 460px; }
 .container .big.column   { width: 620px; }
 .container .full.column  { width: 940px; }
+
+.one.column,
+.one.columns                    { width: 4.66666666667%; }
+.two.columns                    { width: 13.3333333333%; }
+.three.columns                  { width: 22%;            }
+.four.columns                   { width: 30.6666666667%; }
+.five.columns                   { width: 39.3333333333%; }
+.six.columns                    { width: 48%;            }
+.seven.columns                  { width: 56.6666666667%; }
+.eight.columns                  { width: 65.3333333333%; }
+.nine.columns                   { width: 74.0%;          }
+.ten.columns                    { width: 82.6666666667%; }
+.eleven.columns                 { width: 91.3333333333%; }
+.twelve.columns                 { width: 100%; margin-left: 0; }
 
 .one-third.column               { width: 30.6666666667%; }
 .two-thirds.column              { width: 65.3333333333%; }
@@ -94,7 +111,23 @@
     height: 0;
   }
 
-  .contact-format {
-    margin-top: 1px;
-    margin-bottom: 1px;
+  .section-title{
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-size: 40px;
+  }
+
+  .section-desc{
+    margin-top: 3rem;
+  }
+
+  .tab{
+    padding-right: 12px;
+  }
+
+  .one-half-h{
+    line-height: 1.4em;
   }
