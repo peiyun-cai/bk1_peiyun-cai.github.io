@@ -15,11 +15,11 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "PeiYun-Cai Resume"
-keywords:    "peiyun cai, peiyun-cai, resume"
+keywords:    "peiyun cai, peiyuncai, peiyun, peiyun-cai, resume, peiyun cai resume, peiyuncai resume, peiyun-cai resume"
 description: "PeiYun-Cai Resume"
 source_link: "https://github.com/peiyun-cai/peiyun-cai.github.io"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
+favicon:     "img/icon.png"
+touch_icon:  "img/icon.png"
 google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
 
 
