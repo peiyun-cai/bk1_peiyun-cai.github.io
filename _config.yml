@@ -46,3 +46,7 @@ colors:
   lightgray:  '#e5e5e5'
   gtlinkblue: '#004f9f'
   gtlinkhover: '#1879db'
+
+# kramdown:
+#   auto_ids:  false
+
