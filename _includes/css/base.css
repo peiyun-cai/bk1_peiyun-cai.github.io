@@ -52,10 +52,11 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "Raleway", "HelveticaNeue-Light", Arial, sans-serif;
+		font: 16px/21px "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
+		line-height: 1.6;
  }
 
 
@@ -107,7 +108,7 @@
 	ul ul ul, ul.disc { list-style: disc outside; }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
+	li { line-height: 1.6; margin-bottom: 12px;}
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 

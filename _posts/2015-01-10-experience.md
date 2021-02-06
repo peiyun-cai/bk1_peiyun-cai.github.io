@@ -1,16 +1,21 @@
 ---
 title: "Experience"
-bg: gtblue  #defined in _config.yml, can use html color like '#0fbfcf'
-fg: lightgray
-color: lightgray   #text color
-fa-icon: cloud-download
+bg: buzzgold60  #defined in _config.yml, can use html color like '#0fbfcf'
+# fg: buzzgolf
+color: black   #text color
+# fa-icon: cloud-download
 ---
-# Experience
+
+<div class="container">
+    <div class="row">
+    <h2 style="font-weight: bold;letter-spacing: -.8px;">Experience</h2>
+    </div>
+</div>
 
 Software Engineer<br>
-PayPay Corp.<br>
+<strong>PayPay Corp.</strong><br>
 Sep 2020 - Present<br>
-Tokyo, Japan<br>
+<small>Tokyo, Japan</small><br>
 
 - Built Alpakka Kafka application (akka stream integrated with Kafka) to solve faster producer and slow consumer problems by utilizing its flow control features (reactive stream with backpressure).
 - Added complex Device List feature to sign-up, sign-in, and log-out APIs to handle user access information under different scenarios in the combination of user, device, client, and session parameters to detect account takeover.
@@ -19,12 +24,12 @@ Tokyo, Japan<br>
 
 Used techniques: Spring Boot, OAuth 2.0, OIDC, Kafka, MySQL, Redis, AWS DynamoDB, Kibana, NewRelic, and Java
 
--------------------------
+<hr style="border: solid #bfbfbf; border-width: 1px 0 0; ">
 
 Software Engineer<br>
-Rakuten<br>
+<strong>Rakuten</strong><br>
 Oct 2018 - Aug 2020<br>
-Tokyo, Japan<br>
+<small>Tokyo, Japan</small><br>
 
 - Identified critical DB migration issues twice by tracing log and code from gateways to microservices, raised awareness concerning issues to the relevant developers.
 - Built Kafka consumer applications as a base for multiple projects from the ground up to apply complex business logic on messages sent from different producers (internal systems and external vendors) and save into DB.
@@ -35,12 +40,12 @@ Tokyo, Japan<br>
 
 Used techniques: Spring Boot, Laravel, Kafka, MySQL, Couchbase, TigerGraph, Kibana, Express.js, MongoDB, Kotlin, and PHP
 
--------------------------
+<hr style="border: solid #bfbfbf; border-width: 1px 0 0; ">
 
 Software Engineer<br>
-TSMC<br>
+<strong>TSMC</strong><br>
 Feb 2017 - Jul 2018<br>
-Hsinchu, Taiwan<br>
+<small>Hsinchu, Taiwan</small><br>
 
 Outlook Email Monitoring Service
 - Created RESTful web services to control 40K employees’ outgoing email.

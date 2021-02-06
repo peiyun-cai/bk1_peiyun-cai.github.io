@@ -17,10 +17,10 @@
 <body>
   <div id="main">
 
-    <nav><ul>
+    <nav style="background-color: #ffffff;"><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+        <li class="p-{{id}}"><a href="#{{id}}" style="color: black; text-transform: capitalize;">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
 

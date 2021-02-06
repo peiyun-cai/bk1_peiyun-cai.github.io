@@ -6,7 +6,7 @@ safe: false
 
 
 ### site serving configuration ###
-include: [_redirects]
+# include: [_redirects]
 exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 permalink: /:title ## disables post output
 timezone: null
@@ -15,20 +15,20 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "argon.js"
-keywords:    "argon, augmented reality, web, javascript"
-description: "An Augmented Reality web framework."
-source_link: "https://github.com/argonjs"
+title:       "PeiYun-Cai Resume"
+keywords:    "peiyun, cai, resume"
+description: "PeiYun-Cai's resume"
+source_link: "https://peiyun-cai.github.io/"
 favicon:     "favicon.ico"
-touch_icon:  "img/apple-icon-180x180.png"
-google_analytics_key: "UA-63191442-2"
+touch_icon:  "img/peiyun-cai-small-icon.png"
+# google_analytics_key: "UA-63191442-2"
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
+  black:     '#1d1d1d'
+  white:     '#ffffff'
+  blue:      '#0073e6'
   green:     '#9bcf2f'
   purple:    '#c869bf'
   orange:    '#fab125'
@@ -36,14 +36,14 @@ colors:
   gtgold:    '#eeb211'
   gtnavy:    '#00254c'
   gtmetallic: '#f5d376'
-  buzzgold:   '#eeb211'
-  buzzgold60: '#f5d376'
+  buzzgold:   '#f4efe8'
+  buzzgold60: '#f4efe8'
   gtblue:     '#00254c'
   gtblue80:   '#335170'
   black85:    '#262626'
   darkgray:   '#545454'
   mediumgray: '#808080'
-  lightgray:  '#e5e5e5'
+  lightgray:  '#f5f5f5'
   gtlinkblue: '#004f9f'
   gtlinkhover: '#1879db'
 
