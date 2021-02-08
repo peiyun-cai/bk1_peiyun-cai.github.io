@@ -52,7 +52,7 @@ Outlook Email Monitoring Service
 - Setup MS SQL Servers and built HA DB with Always-on Availability Group (master-slave/failover). Created SQL server jobs to notify failure, backup DB/transaction log and synchronize data between SQL servers.
 - Created automated MS Windows Service to fetch and process data from Outlook Exchange server and save into DB. Enabled web services to read data fast from DB with acceptable stale read.
 - Utilized Apache JMeter to perform stress testing on system and HP SiteScope to monitor service availability.
-- Ran 240 test cases manually identified by the Legal department to ensure all scenarios are covered.
+- Ran 240 test cases identified by the Legal department to ensure all scenarios are covered.
 
 Company App Portal
 - Built an Android app with Google Play-like features to browse, download, update, and comment on company apps.
